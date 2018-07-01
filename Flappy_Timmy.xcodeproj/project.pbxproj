@@ -15,6 +15,8 @@
 		EA1122EF20E8EF5400733889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1122ED20E8EF5400733889 /* Main.storyboard */; };
 		EA1122F120E8EF5600733889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1122F020E8EF5600733889 /* Assets.xcassets */; };
 		EA1122F420E8EF5600733889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1122F220E8EF5600733889 /* LaunchScreen.storyboard */; };
+		EA1122FC20E8F30700733889 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1122FB20E8F30700733889 /* GameElements.swift */; };
+		EA1122FE20E8F89200733889 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA1122FD20E8F89200733889 /* player.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EA1122F020E8EF5600733889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1122F320E8EF5600733889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1122F520E8EF5600733889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1122FB20E8F30700733889 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		EA1122FD20E8F89200733889 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,9 @@
 				EA1122E720E8EF5400733889 /* Actions.sks */,
 				EA1122E920E8EF5400733889 /* GameScene.swift */,
 				EA1122EB20E8EF5400733889 /* GameViewController.swift */,
+				EA1122FB20E8F30700733889 /* GameElements.swift */,
 				EA1122ED20E8EF5400733889 /* Main.storyboard */,
+				EA1122FD20E8F89200733889 /* player.atlas */,
 				EA1122F020E8EF5600733889 /* Assets.xcassets */,
 				EA1122F220E8EF5600733889 /* LaunchScreen.storyboard */,
 				EA1122F520E8EF5600733889 /* Info.plist */,
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1122FE20E8F89200733889 /* player.atlas in Resources */,
 				EA1122EF20E8EF5400733889 /* Main.storyboard in Resources */,
 				EA1122E620E8EF5400733889 /* GameScene.sks in Resources */,
 				EA1122F120E8EF5600733889 /* Assets.xcassets in Resources */,
@@ -146,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1122FC20E8F30700733889 /* GameElements.swift in Sources */,
 				EA1122EA20E8EF5400733889 /* GameScene.swift in Sources */,
 				EA1122EC20E8EF5400733889 /* GameViewController.swift in Sources */,
 				EA1122E420E8EF5400733889 /* AppDelegate.swift in Sources */,
@@ -295,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
 				INFOPLIST_FILE = Flappy_Timmy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.Flappy-Timmy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
 				INFOPLIST_FILE = Flappy_Timmy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.Flappy-Timmy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
